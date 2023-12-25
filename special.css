@@ -1,0 +1,13 @@
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+.discounted-price {
+    color: red;
+    font-weight: bold;
+}

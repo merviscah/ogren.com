@@ -1,0 +1,148 @@
+.cont1 {
+    width: 100%;
+    background-image: url("photos/pexels-olia-danilevich-4974915.jpg");
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    line-height: 40px;
+}
+
+.cont1 h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.cont1 p {
+    font-size: 24px;
+}
+
+.shop-now {
+    background-color: rgb(241, 193, 187);
+    padding: 0px 25px;
+    border: 0px;
+}
+
+.shop-now a {
+    text-decoration: none;
+    color: black;
+}
+
+.cont2 {
+    display: flex;
+    margin: 4%;
+    justify-content: space-between;
+}
+
+.text-box {
+    background-color: rgb(241, 193, 187);
+    line-height: 25px;
+    padding: 52px !important;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont3 {
+    margin: 0em 4em;
+}
+
+.services-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.services-text h4 {
+    display: flex;
+    justify-content: center;
+    width: auto !important;
+}
+
+.services-box {
+    padding: 0px !important;
+    overflow: hidden !important;
+}
+
+.course-img:hover {
+    opacity: 0.8 !important;
+    transform: scale(1.03);
+}
+
+.course-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-item {
+    padding: 0.3em 0;
+}
+
+.sepet {
+    border: 0.5px solid black !important;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 1em;
+    width: fit-content;
+}
+
+.see-more {
+    border: 0.5px solid black;
+    border-radius: 20px;
+    width: 15%;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.see-more:hover {
+    background-color: #f4dcda;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .sepet {
+        overflow: hidden;
+    }
+
+    .text-center {
+        font-size: xx-small;
+    }
+
+    .image-box {
+        padding-top: 2em;
+    }
+
+    .img-about {
+        height: 250px !important;
+        width: auto;
+    }
+
+    .cont3 {
+        margin: 2em;
+    }
+
+    .course-img {
+        width: 99.5%;
+    }
+
+    .see-more {
+        width: 50%;
+    }
+}

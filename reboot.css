@@ -1,0 +1,10 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
